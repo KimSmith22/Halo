@@ -1,0 +1,125 @@
+body{
+  height: 900px;
+  background-color: tan;
+}
+.view{
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.red{
+  color: red;
+}
+.navbar-default{
+  background-color: tan;
+  border: none;
+}
+/*body{
+  width: 1185px;
+  background-color: white;
+  margin: auto;
+}*/
+a{
+  color: white;
+}
+.button {
+    border-radius: 15px;
+    background-color: red;
+    border: solid black 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+}
+h3{
+  color: red;
+}
+.bio{
+  padding: 10px;
+}
+p{
+  color: black;
+}
+.links{
+  padding: 3px;
+}
+.topButtons{
+  margin-top: -25;
+}
+
+/*the css for the slideshow*/
+* {
+    box-sizing: border-box
+}
+.mySlides {
+    display: none
+}
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 62.500em;
+    position: relative;
+    margin: auto;
+}
+/* Caption text */
+
+.text {
+    color: green;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 0.500em 0.750em;
+    position: absolute;
+    bottom: 0.500em;
+    width: 100%;
+    text-align: center;
+}
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 0.813em;
+    width: 0.813em;
+    margin: 0 0.125em;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 10.0s;
+    animation-name: fade;
+    animation-duration: 10.0s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 18.750em) {
+    .text {
+        font-size: 0.688em
+    }
+}
