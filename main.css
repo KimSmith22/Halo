@@ -9,10 +9,14 @@ body{
 .red{
   color: red;
 }
+.impact{
+  margin-left: 7px;
+}
 .navbar-default{
   background-color: tan;
   border: none;
 }
+
 /*body{
   width: 1185px;
   background-color: white;
@@ -48,7 +52,10 @@ p{
 .topButtons{
   margin-top: -25;
 }
-
+.rick{
+  color: red;
+  font-size: 22px;
+}
 /*the css for the slideshow*/
 * {
     box-sizing: border-box
