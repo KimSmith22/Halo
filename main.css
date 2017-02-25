@@ -16,7 +16,14 @@ body{
   background-color: tan;
   border: none;
 }
-
+.phone{
+  font-size: 40px;
+}
+.phone2{
+  font-size: 35px;
+  margin-left: 920px;
+  margin-top: -50px;
+}
 /*body{
   width: 1185px;
   background-color: white;
