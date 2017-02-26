@@ -2,6 +2,9 @@ body{
   height: 900px;
   background-color: tan;
 }
+.address p{
+  font-size: 20px;
+}
 .view{
   margin-left: 50px;
   margin-right: 20px;
@@ -22,6 +25,11 @@ body{
 .phone2{
   font-size: 35px;
   margin-left: 920px;
+  margin-top: -50px;
+}
+.phone3{
+  font-size: 35px;
+  margin-left: 1050px;
   margin-top: -50px;
 }
 /*body{
