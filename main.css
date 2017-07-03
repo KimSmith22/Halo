@@ -9,6 +9,9 @@ body{
   margin-left: 50px;
   margin-right: 20px;
 }
+.mission{
+  font-size: 18px;
+}
 .red{
   color: red;
 }
@@ -29,7 +32,7 @@ body{
 }
 .phone3{
   font-size: 35px;
-  margin-left: 1050px;
+  margin-left: 920px;
   margin-top: -50px;
 }
 /*body{
@@ -38,6 +41,9 @@ body{
   margin: auto;
 }*/
 a{
+  color: white;
+}
+.active{
   color: white;
 }
 .button {
