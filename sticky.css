@@ -1,8 +1,14 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
 
 /* entypo */
 [class*="entypo-"]:before {
    font-family: "entypo", sans-serif;
+}
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
 }
 a {
    text-decoration: none;
@@ -58,6 +64,10 @@ ul {
 #sticky-social a[class*="linkedin"],
 #sticky-social a[class*="linkedin"]:hover,
 #sticky-social a[class*="linkedin"] span { background: #007bb6; }
+
+#sticky-social a[class*="envelope"],
+#sticky-social a[class*="envelope"]:hover,
+#sticky-social a[class*="envelope"] span {background: #dd4b30; }
 
 #sticky-social a[class*="instagrem"],
 #sticky-social a[class*="instagrem"]:hover,
